@@ -76,7 +76,9 @@
 
 - (void)didAuthorize {
 
-    NSLog(@"%s", __FUNCTION__);					
+    NSLog(@"%s", __FUNCTION__);
+    
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"onAuthorized" object:self];
                             
 }
 

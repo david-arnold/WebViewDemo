@@ -6,9 +6,9 @@
 //  Copyright © 2017 David Arnold. All rights reserved.
 //
 
-@import GD.Runtime;
 #import "AppDelegate.h"
 #import "ViewController.h"
+@import GD.Runtime;
 
 @interface WebViewDemoGDiOSDelegate : NSObject <GDiOSDelegate>
 

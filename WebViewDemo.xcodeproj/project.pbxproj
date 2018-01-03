@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2CD161621FB9A8F2002440D5 /* GD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD161611FB9A8F2002440D5 /* GD.framework */; };
 		2CD161641FB9A8F2002440D5 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD161631FB9A8F2002440D5 /* LocalAuthentication.framework */; };
 		2CD161661FB9A8F2002440D5 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD161651FB9A8F2002440D5 /* CoreTelephony.framework */; };
 		2CD161681FB9A8F2002440D5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD161671FB9A8F2002440D5 /* SystemConfiguration.framework */; };
@@ -18,18 +17,18 @@
 		2CD161751FB9A8F2002440D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD161741FB9A8F2002440D5 /* ViewController.m */; };
 		2CD161781FB9A8F2002440D5 /* WebViewDemoGDiOSDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD161771FB9A8F2002440D5 /* WebViewDemoGDiOSDelegate.m */; };
 		2CD1617C1FB9A8F2002440D5 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2CD1617B1FB9A8F2002440D5 /* Entitlements.plist */; };
-		2CD1617F1FB9A8F2002440D5 /* GDAssets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2CD1617E1FB9A8F2002440D5 /* GDAssets.bundle */; };
 		2CD161821FB9A8F2002440D5 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD161811FB9A8F2002440D5 /* libstdc++.6.0.9.tbd */; };
 		2CD161841FB9A8F2002440D5 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD161831FB9A8F2002440D5 /* libz.tbd */; };
 		2CD161871FB9A8F2002440D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CD161851FB9A8F2002440D5 /* Main.storyboard */; };
 		2CD161891FB9A8F2002440D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CD161881FB9A8F2002440D5 /* Assets.xcassets */; };
 		2CD1618C1FB9A8F2002440D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CD1618A1FB9A8F2002440D5 /* LaunchScreen.storyboard */; };
 		2CD1618F1FB9A8F2002440D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD1618E1FB9A8F2002440D5 /* main.m */; };
+		2CF0632E1FFD00100066B8C4 /* GD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CF0632D1FFD00100066B8C4 /* GD.framework */; };
+		2CF063301FFD00970066B8C4 /* GDAssets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2CF0632F1FFD00970066B8C4 /* GDAssets.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2CD1615E1FB9A8F2002440D5 /* WebViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2CD161611FB9A8F2002440D5 /* GD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GD.framework; path = System/Library/Frameworks/GD.framework; sourceTree = SDKROOT; };
 		2CD161631FB9A8F2002440D5 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 		2CD161651FB9A8F2002440D5 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		2CD161671FB9A8F2002440D5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -44,7 +43,6 @@
 		2CD161771FB9A8F2002440D5 /* WebViewDemoGDiOSDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewDemoGDiOSDelegate.m; sourceTree = "<group>"; };
 		2CD1617A1FB9A8F2002440D5 /* default.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = default.xcconfig; sourceTree = "<group>"; };
 		2CD1617B1FB9A8F2002440D5 /* Entitlements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
-		2CD1617E1FB9A8F2002440D5 /* GDAssets.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GDAssets.bundle; path = System/Library/Frameworks/GD.framework/Resources/GDAssets.bundle; sourceTree = SDKROOT; };
 		2CD161811FB9A8F2002440D5 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
 		2CD161831FB9A8F2002440D5 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		2CD161861FB9A8F2002440D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -52,6 +50,8 @@
 		2CD1618B1FB9A8F2002440D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CD1618D1FB9A8F2002440D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CD1618E1FB9A8F2002440D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2CF0632D1FFD00100066B8C4 /* GD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GD.framework; path = "../../Library/Application Support/BlackBerry/Good.platform/iOS/Frameworks/GD.framework"; sourceTree = "<group>"; };
+		2CF0632F1FFD00970066B8C4 /* GDAssets.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GDAssets.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,13 +59,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CF0632E1FFD00100066B8C4 /* GD.framework in Frameworks */,
 				2CD161641FB9A8F2002440D5 /* LocalAuthentication.framework in Frameworks */,
 				2CD1616E1FB9A8F2002440D5 /* MobileCoreServices.framework in Frameworks */,
 				2CD161661FB9A8F2002440D5 /* CoreTelephony.framework in Frameworks */,
 				2CD1616C1FB9A8F2002440D5 /* MessageUI.framework in Frameworks */,
 				2CD1616A1FB9A8F2002440D5 /* CoreData.framework in Frameworks */,
 				2CD161681FB9A8F2002440D5 /* SystemConfiguration.framework in Frameworks */,
-				2CD161621FB9A8F2002440D5 /* GD.framework in Frameworks */,
 				2CD161841FB9A8F2002440D5 /* libz.tbd in Frameworks */,
 				2CD161821FB9A8F2002440D5 /* libstdc++.6.0.9.tbd in Frameworks */,
 			);
@@ -94,7 +94,7 @@
 		2CD161601FB9A8F2002440D5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2CD161611FB9A8F2002440D5 /* GD.framework */,
+				2CF0632D1FFD00100066B8C4 /* GD.framework */,
 				2CD161631FB9A8F2002440D5 /* LocalAuthentication.framework */,
 				2CD161651FB9A8F2002440D5 /* CoreTelephony.framework */,
 				2CD161671FB9A8F2002440D5 /* SystemConfiguration.framework */,
@@ -138,7 +138,7 @@
 		2CD1617D1FB9A8F2002440D5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				2CD1617E1FB9A8F2002440D5 /* GDAssets.bundle */,
+				2CF0632F1FFD00970066B8C4 /* GDAssets.bundle */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -213,8 +213,8 @@
 				2CD161871FB9A8F2002440D5 /* Main.storyboard in Resources */,
 				2CD1617C1FB9A8F2002440D5 /* Entitlements.plist in Resources */,
 				2CD161891FB9A8F2002440D5 /* Assets.xcassets in Resources */,
+				2CF063301FFD00970066B8C4 /* GDAssets.bundle in Resources */,
 				2CD1618C1FB9A8F2002440D5 /* LaunchScreen.storyboard in Resources */,
-				2CD1617F1FB9A8F2002440D5 /* GDAssets.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,7 +368,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TLNKE936N5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Application\\ Support/BlackBerry/Good.platform/iOS/Frameworks",
+				);
 				INFOPLIST_FILE = WebViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-lstdc++",
@@ -387,7 +392,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TLNKE936N5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Application\\ Support/BlackBerry/Good.platform/iOS/Frameworks",
+				);
 				INFOPLIST_FILE = WebViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-lstdc++",

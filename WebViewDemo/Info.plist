@@ -34,7 +34,7 @@
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>GDApplicationID</key>
-	<string>com.mycompany.example</string>
+	<string>com.androidforworkdemo.dev.webviewdemo</string>
 	<key>GDApplicationVersion</key>
 	<string>1.0.0.0</string>
 	<key>GDLibraryMode</key>

@@ -61,7 +61,7 @@
 
 - (void)didAuthorize {
 
-    if (self.hasAuthorized && self.rootViewController && self.appDelegate)
+    if (self.hasAuthorized  && self.appDelegate)
     {
         [self.appDelegate didAuthorize];
     }						
